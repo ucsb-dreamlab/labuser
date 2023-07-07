@@ -17,9 +17,9 @@ To deploy the image to the DREAM Lab JupyterHub, you'll need to be logged in to 
 Step are roughly:
 
 ```sh
-# tag your commit and push it to github
+# tag your commit with a version and push it to github
 git tag v0.0.x
-git push v0.0.x origin
+git push origin v0.0.x
 
 # build the image
 docker build -t labuser -f Containerfile
