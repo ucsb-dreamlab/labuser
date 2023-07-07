@@ -14,7 +14,7 @@ docker run --rm -p 8888:8888 ucsbdreamlab/labuser
 
 To deploy the image to the DREAM Lab JupyterHub, you'll need to be logged in to the DREAM Lab DockerHub account.
 
-Step are roughly:
+Steps are roughly:
 
 ```sh
 # tag your commit with a version and push it to github
@@ -25,9 +25,9 @@ git push origin v0.0.x
 docker build -t labuser -f Containerfile
 
 # push version tag
-podman push labuser ucsbdreamlab/labuser:v0.0.x
+docker push labuser ucsbdreamlab/labuser:v0.0.x
 # push latest tag
-podman push labuser ucsbdreamlab/labuser:latest
+docker push labuser ucsbdreamlab/labuser:latest
 ```
 
 Any existing single-user servers on the JupyterHub will need to be shutdown so the new image can be downloaded.
