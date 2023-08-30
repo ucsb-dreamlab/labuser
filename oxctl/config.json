@@ -1,0 +1,10 @@
+{
+    "server_url": "https://dreamlab-api.collections.computer",
+    "client_crt": "/home/jovyan/.config/oxctl/labuser.crt",
+    "client_key": "/home/jovyan/.config/oxctl/labuser.key",
+    "default_user_name": "",
+    "default_user_email": "",
+    "default_storage_root": "",
+    "default_digest_algorithm": "",
+    "default_ocfl_spec": ""
+}

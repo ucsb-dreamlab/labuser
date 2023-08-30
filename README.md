@@ -31,3 +31,7 @@ docker push labuser ucsbdreamlab/labuser:latest
 ```
 
 Any existing single-user servers on the JupyterHub will need to be shutdown so the new image can be downloaded.
+
+# Accessing Restricted Datasets
+
+Use `lab-login` to initiate an authentication process. Once the necessary certificates are installed, `oxctl` can be used to load datasets in the s3-based storage.
