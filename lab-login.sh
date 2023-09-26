@@ -28,5 +28,5 @@ if [[ $? -lt 0 ]]; then
     exit
 fi
 
-oxctl config --set default_user_email $email
-oxctl config --set default_user_name $name
+oxctl config --set user_email $email
+oxctl config --set user_name $name
